@@ -9,6 +9,7 @@ import org.apache.nutch.util.NutchConfiguration;
 public class MyCrawler {
 	public static void main(String[] args) throws Exception {
         String crawlArg = "urls -depth 3 -topN 5";
+        String test = "";
         // Run Crawl tool
         try {
             ToolRunner.run(NutchConfiguration.create(), new Crawler(),
